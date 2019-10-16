@@ -1,0 +1,24 @@
+body {
+  background-color: #1c1e2e !important;
+}
+
+.panel-container {
+  background-color: #292c40 !important;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
+.navbar-button {
+  background-color: #292c40 !important;
+}
+
+.view-mode--tv .navbar-buttons--tv,
+.view-mode--tv .navbar-page-btn,
+.view-mode--tv .sidemenu {
+  display: none !important;
+}
+
+.view-mode--tv .submenu-controls,
+.view-mode--kiosk .submenu-controls {
+  display: flex;
+}
