@@ -22,3 +22,11 @@ body {
 .view-mode--kiosk .submenu-controls {
   display: flex;
 }
+
+.view-mode--kiosk .panel-info-corner--links {
+  display: block !important;
+}
+
+.view-mode--kiosk .panel-menu-container {
+  display: none;
+}
