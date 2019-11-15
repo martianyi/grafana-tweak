@@ -12,8 +12,9 @@ body {
   background-color: #262626 !important;
 }
 
-.view-mode--tv .navbar-buttons--tv,
-.view-mode--tv .navbar-page-btn,
+.view-mode--tv .navbar,
+/* .view-mode--tv .navbar-buttons--tv,
+.view-mode--tv .navbar-page-btn, */
 .view-mode--tv .sidemenu {
   display: none !important;
 }
