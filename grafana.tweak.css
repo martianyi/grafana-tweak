@@ -18,15 +18,16 @@ body {
   display: none !important;
 }
 
-.view-mode--tv .submenu-controls,
-.view-mode--kiosk .submenu-controls {
+.view-mode--tv .submenu-controls {
   display: flex;
 }
 
+.view-mode--tv .panel-info-corner--links,
 .view-mode--kiosk .panel-info-corner--links {
   display: block !important;
 }
 
+.view-mode--tv .panel-menu-container,
 .view-mode--kiosk .panel-menu-container {
   display: none;
 }
